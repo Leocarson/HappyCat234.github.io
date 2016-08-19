@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('body').append('<h1>Java works!</h1>');
+   $('body').append('<p>I\'m a paragraph!</p>');  
 });
