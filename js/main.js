@@ -1,3 +1,3 @@
 $(document).ready(function(){
-   $('body').append('<p>Javascript works!</p>');  
+   $('body').append('<h1>Javascript works!</h1>'); 
 });
