@@ -1,1 +1,17 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <title>Cast Receiver</title>
+  <link rel="stylesheet" type="text/css" href="/css/info.css">
+  <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+</head>
+<body>
+  <video id='media'/>
+  <script>
+    window.mediaElement = document.getElementById('media');
+    window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+    window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+    window.castReceiverManager.start();
+  </script>
+</body>
+</html>
