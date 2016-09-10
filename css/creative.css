@@ -4,3 +4,12 @@ html{
 .text{
   color: #330033;
 }
+.center{
+  text-align: center;
+}
+.hide{
+  visibility: hidden; 
+}
+.slide{
+  text-align: right;
+}
