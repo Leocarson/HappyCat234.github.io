@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('body').append('<p>Jquery loaded</p>')
+  $('body').append('<p>Jquery loaded!</p>')
 });
