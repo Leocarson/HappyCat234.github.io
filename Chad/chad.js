@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $('.fade').fadeIn('slow')
+  $('.fade').hide();
+  $('.fade').delay(300);
+  $('.fade').fadeIn('slow');
 });
